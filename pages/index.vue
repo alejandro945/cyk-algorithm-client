@@ -4,7 +4,7 @@
 
         <v-row align="center" no-gutters class="mb-10">
           <v-col cols="12">
-              <v-alert color="error" type="warning" prominent border="start" variant="elevated">
+              <v-alert color="info" type="warning" prominent border="start" variant="elevated">
                 <b>Use Rules: </b> ...
               </v-alert>
           </v-col>

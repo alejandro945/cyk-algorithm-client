@@ -21,6 +21,7 @@
                         <v-btn class="mt-2 mr-2" color="error" @click="handleBack">Back</v-btn>
                         <v-btn class="mt-2" v-on:click="sendData(word, (res) => {
                             response = res.data.response;
+                            dataTable = res.data.matrix;
                             alert = true
                         })">Send</v-btn>
                     </div>
@@ -33,7 +34,9 @@
                 </v-alert>
             </div>
         </v-sheet>
-
+        <div v-if="response" style="margin-top: 50px;">
+            <Table :word="word" :data="dataTable"/>
+        </div>
 </template>
 
 <script setup lang="ts">
@@ -47,7 +50,8 @@
                 amountOfProducers: 0,
                 word: '',
                 alert: false,
-                response: false
+                response: false,
+                dataTable: []
         }),
         methods: {
             required (v:any) {

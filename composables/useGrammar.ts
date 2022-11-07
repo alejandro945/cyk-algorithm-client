@@ -15,6 +15,7 @@ export const useGrammar = () => {
     }
     const sendData = async (word:string, response:(res:any) => void) =>{
         return axios.post('api/v1/responses', {grammar: grammarState.value, word: word}).then(res =>{
+            console.log(res.data)
             response(res)
         }).catch(err => {
             console.log(err)
