@@ -63,7 +63,9 @@ The table result show us the productions to use to generate the chain step by st
 ![imagen](https://user-images.githubusercontent.com/80568091/201346640-c6fb64a0-a042-49b0-837c-84a556134451.png)
 
 
-# Tools used to create this proyect:
+
+
+# Tools used to create this project:
 * Vue.js
 * TypeScript
 * Ruby
