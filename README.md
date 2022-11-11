@@ -30,6 +30,7 @@ w ∈ L(G) if and only if S ∈ X1n.
 You have to follow this link: https://nuxt-examples-c5g9kwu80-alejandro945.vercel.app/
 
 Then, you will see something like this
+
 ![imagen](https://user-images.githubusercontent.com/80568091/201343169-d0609682-f31d-4c32-b90a-053974c5e2e6.png)
 
 In the field 'word', you have to put the chain of characters you want to process. **Example: abaab**
@@ -61,6 +62,18 @@ The table result show us the productions to use to generate the chain step by st
 ### In case that the chain doesn't belong to the grammar you will see this
 
 ![imagen](https://user-images.githubusercontent.com/80568091/201346640-c6fb64a0-a042-49b0-837c-84a556134451.png)
+
+# :heavy_exclamation_mark: IMPORTANT :heavy_exclamation_mark:
+**The backend is hosted in Heroku, when no one uses the application Heroku drops the service, so once you press the SEND button is probably to receive a response or not**
+
+**You will see this in the console:**
+
+![imagen](https://user-images.githubusercontent.com/80568091/201422017-01ad02ab-b5df-4abc-97e7-fb0b043f6a07.png)
+
+**Please wait a minute while the service is deploying**
+
+**When time passes, you can send the requests without problem**
+
 
 
 
